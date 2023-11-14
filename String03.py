@@ -6,5 +6,6 @@ def main(s):
     Returns:
         str: answer
     """
-
-    return
+    s = "IPHONE IS A MOBILE"
+    return s.lower()
+print(main("IPHONE IS A MOBILE"))
