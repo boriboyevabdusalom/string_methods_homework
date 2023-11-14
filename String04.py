@@ -6,5 +6,6 @@ def main(s):
     Returns:
         bool: answer
     """
-    
-    return
+    s = "codeschool"
+    return s.isalpha()
+print(main("codeschool"))
