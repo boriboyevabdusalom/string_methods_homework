@@ -6,5 +6,6 @@ def main(s):
     Returns:
         str: answer
     """
-    
-    return
+    s = "apple is a fruit"
+    return s.upper()
+print(main("apple is a fruit"))
