@@ -6,6 +6,6 @@ def main(s):
     Returns:
         bool: answer
     """
-    s = "codeschool"
-    return s.isalpha()
+    return s.islower()
 print(main("codeschool"))
+print(main("Mobile"))
